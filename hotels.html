@@ -8,7 +8,7 @@
     <header>
       <p class="logo">
         <a href="index.html">
-        <img src="logo.svg" width="140" height="72" alt="Логотип городка Седона">
+          <img src="logo.svg" width="140" height="72" alt="Логотип городка Седона">
         </a>
       </p>
       <nav class="main-menu">
@@ -69,17 +69,21 @@
         </form>
       </section>
       <section class="choice">
+        <span class="found">Найдено:3</span>
         <div class="sort">
-          <h3>Найдено:3</h3>
+          <h3 class="sort">Сортировка:</h3>
           <ul class="sort-list">
-          Сортировка:
-            <li>по цене</li>
-            <li>по типу</li>
-            <li>по рейтингу</li>
+            <li><a href="#">по цене</a></li>
+            <li><a href="#">по типу</a></li>
+            <li><a href="#">по рейтингу</a></li>
           </ul>
+          <div class="sort-switch">
+            <a class="up" href="#">Наверх</a>
+            <a class="down" href="#">Вниз</a>
+          </div>
         </div>
         <div class="choice-hotel">
-          <h3>Amara Resort & Spa</h3>
+          <h3><a href="#">Amara Resort & Spa</a></h3>
           <p>
             <img src="hotel-Amara.jpg" width="135" height="90" alt="Гостиница Amara">
           </p>
@@ -92,11 +96,11 @@
           </span>
         </div>
         <div>
-          <h3>Desert Quail Inn</h3>
+          <h3><a href="#">Desert Quail Inn</a></h3>
           <p>
             <img src="motel-Desert-Quail-Inn.jpg" width="135" height="90" alt="Мотель Desert Quail Inn">
           </p>
-          <p>Мотель от 3000 р. </p>
+          <p>Мотель от 3000 р.</p>
           <span class="button-news">
             <a class="button" href="#">Подробнее</a>
           </span>
@@ -105,7 +109,7 @@
           </span>
         </div>
         <div>
-          <h3>Villas at Poco Diablo</h3>
+          <h3><a href="#">Villas at Poco Diablo</a></h3>
           <p>
             <img src="apartment-Villas-Diablo.jpg" width="135" height="90" alt="Апартаменты">
           </p>
@@ -118,11 +122,9 @@
           </span>
         </div>
       </section>
-
     </main>
     <footer class="main-footer">
-      <p class="footer-hashtag">#VISITSEDONA
-      </p>
+      <p class="footer-hashtag">#VISITSEDONA</p>
       <div class="footer-social">
         <ul class="social">
           <li><a class="social-button" href="#">Вконтакте</a></li>
@@ -132,9 +134,8 @@
       </div>
       <div class="htmlacademy">
         <p class="footer-copyright">
-        <b>Website by</b>
-        <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy
-        </a>
-      </p>
+          <span>Website by</span>
+            <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
+        </p>
       </div>
     </footer>
