@@ -14,9 +14,9 @@
       <nav class="main-menu">
         <ul class="site-menu">
           <li><a href="info.html">Информация</a></li>
-          <li><a href="#">Фото и видео</a></li>
-          <li><a href="#">Карта штата</a></li>
-          <li><a href="#">Гостиницы</a></li>
+          <li><a href="photogallery.html">Фото и видео</a></li>
+          <li><a href="map.html">Карта штата</a></li>
+          <li><a href="hotels.html">Гостиницы</a></li>
         </ul>
       </nav>
     </header>
@@ -85,8 +85,20 @@
         <p class="search">
           <span class="search-info">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</span>
         </p>
-        <a class="button" href="#">Поиск гостиницы в Седоне</a>
-        <!--здесь будет форма)-->
+        <form class="info-sedona-form" action="#" method="post">
+          <a class="button" href="#">Поиск гостиницы в Седоне</a>
+          <label for="arrival">Дата заезда</label>
+          <input type="date" id="arrival" name="date-of-arrival" value="Дата заезда" <img/calendar.svg alt="Выбор даты из календаря">
+          <label for="departure">Дата выезда</label>
+          <input type="data" id="departure" name="date-of-departure" value="Дата выезда">
+          <label for="adults">Взрослые</label>
+          <input type="number" id="adults" value="Взрослые">
+          <label for="children">Дети</label>
+          <input type="number" id="children" value="Дети">
+          <input type="submit" value="Найти">
+        </form>
+
+
       </section>
       <!--<section class="map">
       <h2 class="visually-hidden">Карта</h2>
@@ -104,7 +116,9 @@
       <div class="htmlacademy">
         <p class="footer-copyright">
           <span>Website by</span>
-            <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" width="155" height="41" alt="HTML Academy"></a>
+          <a href="https://htmlacademy.ru/intensive/htmlcss">
+            <img src="img/logo-htmlacademy.svg" width="155" height="41" alt="HTML Academy">
+          </a>
         </p>
       </div>
     </footer>
