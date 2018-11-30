@@ -43,6 +43,12 @@ a {
   opacity: 0.3;
 }
 
+a.active-link {
+  color: #766357;
+
+  pointer-events: none;
+}
+
 .sedona-city {
   color: #000000;
   font-size: 21px;
@@ -149,6 +155,17 @@ list-style: none;
   border: none;
 }
 
+.search-button:hover,
+.search-button:focus {
+  background-color: #604e43;
+}
+
+.search-button:active {
+  opacity: 0.3;
+  color: #ffffff;
+  background-color: #503e33;
+}
+
 .info-sedona-form {
   font-weight: 700;
   color: #000000;
@@ -160,6 +177,75 @@ list-style: none;
   text-transform: uppercase;
   background-color: #81b3d2;
   color: #ffffff;
+  text-transform: uppercase;
+}
+
+.form-button:hover,
+.form-button:focus {
+  background-color: #669ec0;
+}
+
+.form-button:active {
+  opacity: 0.3;
+  color: #ffffff;
+  background-color: #5496bd;
+}
+
+.hotel-link {
+  color: #000000;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.hotel-link:hover,
+.hotel-link:focus {
+  color: #81b3d2;
+}
+
+.hotel-link:active {
+  opacity: 0.3;
+  color: #000000;
+}
+
+.summary {
+  line-height: 21px;
+}
+
+.button-news {
+  line-height: 21px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #81b3d2;
+}
+
+.button-news:hover,
+.button-news:focus {
+  background-color: #669ec0;
+}
+
+.button-news:active {
+  background-color: #5496bd;
+  opacity: 0.3;
+  color: #ffffff;
+}
+
+.button-reservation {
+  font-weight: 700;
+  line-height: 21px;
+  color: #ffffff;
+  background-color: #766357;
+}
+
+.button-reservation:hover,
+.button-reservation:focus {
+  background-color: #604e43;
+}
+
+.button-reservation:active {
+  opacity: 0.3;
+  color: #ffffff;
+  background-color: #503e33;
 }
 
 .footer-hashtag {
