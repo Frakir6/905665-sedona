@@ -56,3 +56,77 @@ a {
   font-weight: 400;
   line-height: 26px;
 }
+
+.real {
+  background-color: #81b3d2;
+}
+
+.real-city {
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.reason {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.genuine {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.advantage-title {
+  color: #000000;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.advantage-text {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.bridge-devil {
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.benefit {
+  color: #000000;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.benefit-for-you {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.info {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.search-info {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
