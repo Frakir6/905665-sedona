@@ -16,3 +16,29 @@ body {
 a {
   text-decoration: none;
 }
+
+.main-menu {
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.site-menu {
+  list-style: none;
+}
+
+.site-menu a {
+  color: #000000;
+}
+
+.site-menu a:hover,
+.site-menu a:focus {
+  color: #81b3d2;
+}
+
+.site-menu a:active {
+  color: #000000;
+  opacity: 0.3;
+}
