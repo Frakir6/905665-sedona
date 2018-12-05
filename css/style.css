@@ -31,6 +31,7 @@ a {
 
 .site-menu a {
   color: #000000;
+  font-weight: 700;
 }
 
 .site-menu a:hover,
@@ -106,7 +107,7 @@ a.active-link {
   line-height: 21px;
 }
 .reason-list {
-list-style: none;
+  list-style: none;
 }
 
 .bridge-devil {
@@ -146,6 +147,7 @@ list-style: none;
 
 .search-button {
   font: inherit;
+  font-weight: 700;
 
   text-align: center;
   color: #ffffff;
@@ -210,6 +212,7 @@ list-style: none;
 
 .summary {
   line-height: 21px;
+  color: #333333;
 }
 
 .button-news {
@@ -255,7 +258,7 @@ list-style: none;
 }
 
 .social-list {
-list-style: none;
+  list-style: none;
 }
 
 .social-button {
