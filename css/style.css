@@ -239,6 +239,24 @@ a.active-link {
   color: #000000;
 }
 
+.rated {
+  opacity: 0.3;
+  color: #000000;
+  font-size: 12px;
+  line-height: 18px;
+  line-height: 18px;
+}
+
+.rated:hover,
+.rated:focus {
+  opacity: 1;
+  color: #81b3d2;
+}
+
+.rated:active {
+  color: #000000;
+}
+
 .summary {
   line-height: 21px;
   color: #333333;
