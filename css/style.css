@@ -257,6 +257,23 @@ a.active-link {
   color: #000000;
 }
 
+.up {
+  background-color: #cacaca;
+}
+
+.up:hover,
+.up:focus {
+  background-color: #231f20;
+}
+
+.up:active {
+  background-color: #81b3d2;
+}
+
+.down {
+  background-color: #81b3d2;
+}
+
 .summary {
   line-height: 21px;
   color: #333333;
