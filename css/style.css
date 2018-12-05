@@ -210,6 +210,19 @@ a.active-link {
   color: #000000;
 }
 
+.price {
+  width: 48px;
+  height: 10px;
+  color: #81b3d2;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.price:active {
+  color: #81b3d2;
+}
+
 .summary {
   line-height: 21px;
   color: #333333;
