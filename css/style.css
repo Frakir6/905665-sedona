@@ -13,6 +13,11 @@ body {
   background-repeat: no-repeat;
 }
 
+.background-sedona {
+  background-image: url("../img/bg_ph sedona.jpg");
+  background-repeat: no-repeat;
+}
+
 a {
   text-decoration: none;
 }
