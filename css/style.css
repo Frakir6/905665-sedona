@@ -1,7 +1,6 @@
 body {
   margin: 0;
 
-  width: 1200px;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 26px;
@@ -15,8 +14,8 @@ body {
 }
 
 .page-wrapper {
-  width: 100%;
-  margin: auto;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .background-sedona {
@@ -37,7 +36,19 @@ a {
 }
 
 .site-menu {
+  display: flex;
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-link {
+  display: block;
+  width: 239px;
+}
+
+.site-menu li:nth-child(3) {
+  margin-left: 244px;
 }
 
 .site-menu a {
