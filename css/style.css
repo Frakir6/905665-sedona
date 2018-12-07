@@ -30,20 +30,32 @@ body {
 }
 
 .background-sedona {
-  background-image: url("../img/bg_ph sedona.jpg");
+  background-image: url("../img/intro-mask.svg"), url("../img/bg_ph sedona.jpg");
   background-repeat: no-repeat;
-  padding-bottom: 508px;
+  padding-bottom: 76px;
   position: relative;
+  background-position: center 507px, top;
+  background-size: 1200px;
 }
 
 a {
   text-decoration: none;
 }
 
+.header-title {
+  font-size: 0;
+  line-height: 0;
+  width: 459px;
+  height: 353px;
+  background-image: url("../img/intro-welcome.svg");
+  margin: 0 auto;
+}
+
 .main-menu {
   font-size: 14px;
   line-height: 26px;
   color: #000000;
+  margin-bottom: 79px;
 
   background-color: #ffffff;
 }
@@ -87,6 +99,8 @@ a.active-link {
 
   pointer-events: none;
 }
+
+
 
 .sedona-city {
   color: #000000;
