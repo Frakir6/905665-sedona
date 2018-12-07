@@ -11,6 +11,13 @@ body {
   background-color: #ffffff;
   background-position: top center;
   background-repeat: no-repeat;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 530px;
+  margin: 0;
 }
 
 .page-wrapper {
@@ -18,9 +25,15 @@ body {
   margin: 0 auto;
 }
 
+.header {
+  position: relative;
+}
+
 .background-sedona {
   background-image: url("../img/bg_ph sedona.jpg");
   background-repeat: no-repeat;
+  padding-bottom: 508px;
+  position: relative;
 }
 
 a {
