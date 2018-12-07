@@ -227,7 +227,12 @@ a.active-link {
 
   background-color: #766357;
   border: none;
+
+  width: 568px;
+  margin: 0 auto;
 }
+/* кнопка не отвечает на маргин и не становится по центру почему-то*/
+
 
 .search-button:hover,
 .search-button:focus {
