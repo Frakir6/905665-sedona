@@ -400,18 +400,48 @@ a.active-link {
   background-color: #503e33;
 }
 
+.main-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .footer-hashtag {
+
   color: #000000;
   font-size: 21px;
   font-weight: 700;
 }
 
 .social-list {
+  display: flex;
   list-style: none;
 }
 
+.tw {
+  background-image: url("../img/twitter.svg");
+  background-repeat: no-repeat;
+}
+
+.fb {
+  background-image: url("../img/fb-icon.svg");
+  background-repeat: no-repeat;
+}
+
+.yt {
+    background-image: url("../img/youtube.svg");
+    background-repeat: no-repeat;
+}
+
 .social-button {
+  display: block;
   background-color: #81b3d2;
+  background-position: center;
+  font-size: 0;
+  line-height: 0;
+  width: 46px;
+  height: 48px;
+  margin: 36px 6px;
 }
 
 .social-button:hover,
@@ -422,4 +452,9 @@ a.active-link {
 .social-button:active {
   background-color: #5496bd;
   opacity: 0.3;
+}
+
+.htmlacademy {
+  display: flex;
+  align-items: center;
 }
