@@ -1,6 +1,7 @@
 body {
   margin: 0;
 
+  width: 1200px;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 26px;
@@ -11,6 +12,11 @@ body {
   background-color: #ffffff;
   background-position: top center;
   background-repeat: no-repeat;
+}
+
+.page-wrapper {
+  width: 100%;
+  margin: auto;
 }
 
 .background-sedona {
