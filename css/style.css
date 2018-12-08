@@ -278,11 +278,22 @@ a.active-link {
   width: 100%;
 }
 
+.choice-hotel {
+  display: flex;
+  align-items: center;
+}
+
+.img-hotels {
+  margin: 72px 30px 30px;
+}
+
 .hotel-link {
   color: #000000;
   font-size: 21px;
   font-weight: 700;
   line-height: 26px;
+  width: 210px;
+  margin-top: 30px;
 }
 
 .hotel-link:hover,
@@ -362,6 +373,8 @@ a.active-link {
 .summary {
   line-height: 21px;
   color: #333333;
+  width: 72px;
+  margin:
 }
 
 .button-news {
@@ -369,6 +382,8 @@ a.active-link {
   font-weight: 700;
   color: #ffffff;
   background-color: #81b3d2;
+  width: 110px;
+  text-align: center;
 }
 
 .button-news:hover,
@@ -384,9 +399,13 @@ a.active-link {
 
 .button-reservation {
   font-weight: 700;
+  font-size: 14px;
   line-height: 21px;
   color: #ffffff;
   background-color: #766357;
+  width: 110px;
+  height: 11px;
+  text-align: center;
 }
 
 .button-reservation:hover,
@@ -398,6 +417,30 @@ a.active-link {
   opacity: 0.3;
   color: #ffffff;
   background-color: #503e33;
+}
+
+.container-hotel {
+  margin-right: 522px;
+  width: 260px;
+}
+
+.assessment {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.stars {
+  background-image: url("../img/star.svg");
+  background-repeat: no-repeat;
+  padding-left: 6px;
+  margin: 0px 29px 72px 47px;
+}
+
+.rating {
+  margin-right: 73px;
+  margin-bottom: 30px;
+
 }
 
 .main-footer {
