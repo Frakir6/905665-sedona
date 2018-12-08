@@ -281,6 +281,7 @@ a.active-link {
 .choice-hotel {
   display: flex;
   align-items: center;
+  border-bottom: 1px  solid #e5e5e5;
 }
 
 .img-hotels {
@@ -371,13 +372,18 @@ a.active-link {
 }
 
 .summary {
+  display: flex;
   line-height: 21px;
   color: #333333;
   width: 72px;
-  margin:
+}
+
+.summary-hotel {
+  margin-right: 39px;
 }
 
 .button-news {
+  display: block;
   line-height: 21px;
   font-weight: 700;
   color: #ffffff;
@@ -398,6 +404,7 @@ a.active-link {
 }
 
 .button-reservation {
+  display: block;
   font-weight: 700;
   font-size: 14px;
   line-height: 21px;
@@ -420,6 +427,8 @@ a.active-link {
 }
 
 .container-hotel {
+  display: flex;
+  flex-wrap: wrap;
   margin-right: 522px;
   width: 260px;
 }
@@ -434,7 +443,7 @@ a.active-link {
   background-image: url("../img/star.svg");
   background-repeat: no-repeat;
   padding-left: 6px;
-  margin: 0px 29px 72px 47px;
+  margin: 29px 72px 47px 0px;
 }
 
 .rating {
