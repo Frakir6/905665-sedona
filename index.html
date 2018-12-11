@@ -93,22 +93,30 @@
           <button class="search-button">Поиск гостиницы в Седоне</button>
           <div class="modal">
             <form class="info-sedona-form" action="https://echo.htmlacademy.ru" method="post">
-              <label>
-                Дата заезда:
-                <input type="date" name="date-of-arrival" value="" placeholder="24 АПРЕЛЯ 2017">
+              <label class="label-wrapper">
+                <span class="text-wrapper">Дата заезда:</span>
+                <input type="date" class="input-wrapper" name="date-of-arrival" value="" placeholder="24 АПРЕЛЯ 2017">
               </label>
-              <label>
-                Дата выезда:
-                <input type="date" name="date-of-departure" value="" placeholder="4 ИЮЛЯ 2017">
+              <label class="label-wrapper">
+                <span class="text-wrapper">Дата выезда:</span>
+                <input type="date" class="input-wrapper" name="date-of-departure" value="" placeholder="4 ИЮЛЯ 2017">
               </label>
-              <label>
-                Взрослые:
-                <input type="number" name="adults" value="" placeholder="2">
-              </label>
-              <label>
-                Дети:
-                <input type="number" name="children" value="" placeholder="0">
-              </label>
+              <div class="div-wrapper">
+                <label class="label-category">
+                  <span class="text-wrapper">Взрослые:</span>
+                </label>
+                <button type="button" class="button-min">-</button>
+                  <input type="text" class="input-category" name="adults" value="" placeholder="2">
+                <button type="button" class="button-max">+</button>
+              </div>
+              <div class="div-wrapper">
+                <label class="label-category">
+                  <span class="text-wrapper">Дети:</span>
+                </label>
+                <button type="button" class="button-min">-</button>
+                  <input type="text" class="input-category" name="children" value="" placeholder="0">
+                <button type="button" class="button-max">+</button>
+              </div>
               <button type="submit" class="form-button">Найти</button>
             </form>
           <div>
