@@ -193,7 +193,7 @@ a.active-link {
 .info-sedona {
   position: relative;
 
-  padding: 57px 25px 138px;
+  padding: 57px 25px 0px;
 }
 
 .info {
@@ -218,8 +218,10 @@ a.active-link {
 .search-button {
   display: block;
   font: inherit;
+  font-size: 21px;
   font-weight: 700;
-
+  padding: 30px 140px;
+  line-height: 26px;
 
   text-align: center;
   color: #ffffff;
@@ -228,7 +230,6 @@ a.active-link {
   background-color: #766357;
   border: none;
 
-  width: 568px;
   margin: 0 auto;
 }
 
@@ -250,7 +251,12 @@ a.active-link {
 
   display: flex;
   justify-content: center;
+
+  padding: 55px 55px;
   width: 568px;
+  background-color: #ffffff;
+  box-shadow: 0 7px 15px rgba(0, 1, 1, 0.15);
+  box-sizing: border-box;
 }
 
 .info-sedona-form {
@@ -258,14 +264,14 @@ a.active-link {
   flex-wrap: wrap;
   font-weight: 700;
   color: #000000;
-  background-color: #ffffff;
-  box-shadow: 0 7px 15px rgba(0, 1, 1, 0.15);
   width: 100%;
 }
 
 .label-wrapper {
   display: flex;
+  align-items: center;
   width: 100%;
+  margin-bottom: 29px;
 }
 
 .text-wrapper {
@@ -274,27 +280,75 @@ a.active-link {
 
 .input-wrapper {
   flex-grow: 1;
+  margin-left: 21px;
+  line-height: 26px;
+  color: #000000;
+  background-color: #f2f2f2;
+  border: none;
+
+  padding: 6px 13px;
 }
 
 .div-wrapper {
   display: flex;
   width: 50%;
+  margin-bottom: 54px;
 }
 
 .label-category {
+  display: flex;
+  align-items: center;
 }
 
 .input-category {
   width: 38px;
+  height: 38px;
+  background-color: #f2f2f2;
+  color: #000000;
+  border: none;
+  text-align: center;
+  padding: 0px;
+}
+
+.adults {
+  margin-right: 41px;
+}
+
+.children {
+  margin-right: 27px;
+  padding-left: 53px;
+}
+
+.button-min {
+  width: 38px;
+  height: 38px;
+  background-color: #f2f2f2;
+  border: none;
+  color: #a9a9a9;
+  text-align: center;
+}
+
+.button-max {
+  width: 38px;
+  height: 38px;
+  background-color: #f2f2f2;
+  border: none;
+  color: #a9a9a9;
+  text-align: center;
 }
 
 .form-button {
   font: inherit;
-  text-transform: uppercase;
+  width: 100%;
+  height: 58px;
+  font-size: 21px;
+  line-height: 26px;
   background-color: #81b3d2;
   color: #ffffff;
   text-transform: uppercase;
-  width: 100%;
+  padding: 0;
+  border: none;
+  text-transform: uppercase;
 }
 
 .form-button:hover,
